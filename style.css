@@ -733,6 +733,9 @@ body {
   text-transform: capitalize;
   margin-top: 20px;
 }
+.contact .container .flex .left a {
+  color: black;
+}
 .contact .container .flex .right {
   width: 50%;
 }
@@ -901,6 +904,12 @@ body {
 .sort .container,
 .contact .container {
     padding: 60px 0;
+  }
+  .navbar .conatiner {
+    height: 100px;
+  }
+  .navbar.nav-none .container {
+    height: 90px;
   }
   .ourClub .container .flex {
     width: 70%;
@@ -1100,6 +1109,15 @@ body {
   }
 }
 @media (max-width: 560px) {
+  .fullScreen .navbar.nav-none .container {
+    height: 80px;
+  }
+  .fullScreen .navbar .container {
+    height: 90px;
+  }
+  .fullScreen .navbar .container .left img {
+    width: 80px;
+  }
   .sort .container .bottom .reveal {
     width: 100%;
   }

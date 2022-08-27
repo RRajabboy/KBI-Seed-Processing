@@ -614,6 +614,9 @@ body {
                     text-transform: capitalize;
                     margin-top: 20px;
                 }
+                a {
+                    color: black;
+                }
             }
             .right {
                 width: 50%;
@@ -809,6 +812,16 @@ body {
     .contact {
         .container {
             padding: 60px 0;
+        }
+    }
+    .navbar {
+        .conatiner {
+            height: 100px;
+        }
+        &.nav-none {
+            .container {
+                height: 90px;
+            }
         }
     }
     .ourClub {
@@ -1056,6 +1069,23 @@ body {
     }
 }
 @media (max-width: 560px) {
+    .fullScreen {
+        .navbar {
+            &.nav-none {
+                .container {
+                    height: 80px;
+                }
+            }
+            .container {
+                height: 90px;
+                .left {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
     .sort {
         .container {
             .bottom {
