@@ -16,7 +16,7 @@
                 <source src="./img/main-video.mp4">
             </video>
         </div>
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="container" id="container">
                 <a href="./index.html" class="left">
                     <img src="./img/main-logo-png.png" alt="">
@@ -24,12 +24,12 @@
                 <div class="right" id="box1">
                     <div class="links" id="nav-links">
                         <i class="fa-solid fa-xmark" id="close-links"></i>
-                        <div class="link"><img src="./img/wheat-logo.png" alt=""><a href="#club">club</a><img src="./img/wheat-logo.png" alt=""></div>
-                        <div class="link"><img src="./img/wheat-logo.png" alt=""><a href="#">Grain cleaning</a><img src="./img/wheat-logo.png" alt=""></div>
-                        <div class="link"><img src="./img/wheat-logo.png" alt=""><a href="#">Seed Sales</a><img src="./img/wheat-logo.png" alt=""></div>
-                        <div class="link"><img src="./img/wheat-logo.png" alt=""><a href="#">Organic services</a><img src="./img/wheat-logo.png" alt=""></div>
-                        <div class="link"><img src="./img/wheat-logo.png" alt=""><a href="#">Clour Sorting</a><img src="./img/wheat-logo.png" alt=""></div>
-                        <div class="link"><img src="./img/wheat-logo.png" alt=""><a href="#">Contact us</a><img src="./img/wheat-logo.png" alt=""></div>
+                        <a class="link" href="#club"><img src="./img/wheat-logo.png" alt=""><span>club</span><img src="./img/wheat-logo.png" alt=""></a>
+                        <a class="link" href="#sale"><img src="./img/wheat-logo.png" alt=""><span>Seed Sales</span><img src="./img/wheat-logo.png" alt=""></a>
+                        <a class="link" href="#clean"><img src="./img/wheat-logo.png" alt=""><span>Grain cleaning</span><img src="./img/wheat-logo.png" alt=""></a>
+                        <a class="link" href="#organic"><img src="./img/wheat-logo.png" alt=""><span>Organic services</span><img src="./img/wheat-logo.png" alt=""></a>
+                        <a class="link" href="#sort"><img src="./img/wheat-logo.png" alt=""><span>Clour Sorting</span><img src="./img/wheat-logo.png" alt=""></a>
+                        <a class="link" href="#contact"><img src="./img/wheat-logo.png" alt=""><span>Contact us</span><img src="./img/wheat-logo.png" alt=""></a>
                     </div>
                     <i class="fa-solid fa-bars" id="open-links"></i>
                 </div>
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="main">
-            <div class="container" id="main">
+            <div class="container section" id="main">
                 <div class="left">
                     <img id="main-img" src="./img/main-logo-white.png" alt="">
                 </div>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div class="ourClub" id="club">
+    <div class="ourClub section" id="club">
         <div class="container">
             <h1>Our <span>club</span></h1>
             <div class="flex">
@@ -73,20 +73,141 @@
             </div>
         </div>
     </div>
-    <div class="clean">
+    <div class="clean section" id="sale">
         <div class="container">
             <h1>our<span> Seed sales</span></h1>
-            <div class="flex">
+            <div class="flex" id="bigMan">
                 <div class="right reveal">
                     <h1>Meet our grain marketing specialist</h1>
                     <h2>Lloyd Beutler</h2>
-                    
+                    <span id="textMan"></span>
                     <p>Lloyd grew up on a farm in southeast Saskatchewan and has both a passion for people and farming. Lloyd is excellent at tracking down the seed variety that you are looking for for your upcoming planting season. Even better, he is skilled at finding it for the right price!</p>
                     <p>Whether you know the exact variety of pedigree seed that you are looking for or if you would like to speak to someone about the best options out there for you, do not hesitate to give Lloyd a call. He will be happy to help!</p>
-                    <a>+1 (306) 630-8660</a>
+                    <a><i class="fa-solid fa-phone"></i>+1 (306) 630-8660</a>
                 </div>
-                <div class="left reveal">
+                <div class="left reveal" id="imgMan">
                     <img src="./img/Lloyd+cropped.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sale section" id="clean">
+        <div class="container">
+            <h1>Our<span> Grain Cleaning</span></h1>
+            <div class="clean-txt">
+                <h2>We clean to human consumption standards</h2>
+                <p>Contact us to hear more about how we can clean your product to meet human consumption standards. We want to help you get the most of your product!</p>
+            </div>
+            <div class="flex">
+                <div class="box reveal">
+                    <div class="transition">
+                        <div class="img">
+                            <img src="./img/Spelt+with+map.png" alt="">
+                        </div>
+                        <h2>Seed Cleaning</h2>
+                        <p>We are a licensed seed cleaning operation for both conventional and organic seed. We work to ensure that we are meeting a high purity standard while minimizing product loss. You have worked hard to produce your seed and we want to help ensure that you are getting the most out of it in this upcoming growing season. We clean a variety of seed types including wheat, barley, oats, flax, peas, canary seed and more!</p>
+                    </div>
+                </div>
+                <div class="box reveal">
+                    <div class="transition">
+                        <div class="img">
+                            <img src="./img/splet.jpg">
+                        </div>
+                        <h2>Upgrading</h2>
+                        <p>Our processing facility has been designed to be very adaptable. This allows us to be able to upgrade grain in a variety of ways, ensuring that you are getting the most out of your product based on the specific market you are selling to.  So whether you are trying to sell into a niche market with strict purity requirements or are looking to decrease your dockage penalty, we would be happy to speak with you about what we can offer.</p>
+                    </div>
+                </div>
+                <div class="box reveal">
+                    <div class="transition">
+                        <div class="img">
+                            <img src="./img/Oats.jpg">
+                        </div>
+                        <h2>Product Seperation</h2>
+                        <p>We are able to separate many products with a high level of accuracy to ensure that your product loss is minimal and purity standards are met. With this service, intercropping is a great option and many growers are seeing the value in it. And, although all growers hope to never have it happen, on occasion multiple products get dumped into the same bin. We can help fix the mistake by separating back out your products!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sale organic section" id="organic">
+        <div class="container">
+            <h1>Our<span> Organic Services</span></h1>
+            <div class="clean-txt">
+                <p>We are organic certified in both our grain processing and storage. We will work with you to ensure that your product is both cleaned and packaged and shipped to your specifications.</p>
+            </div>
+            <div class="flex">
+                <div class="box reveal">
+                    <div class="transition">
+                        <div class="img">
+                            <img src="./img/img-1.jpg" alt="">
+                        </div>
+                        <h2>Dehulling</h2>
+                        <p>We specialize in processing and cleaning ancient grains, meeting high purity requirements.</p>
+                    </div>
+                </div>
+                <div class="box reveal">
+                    <div class="transition">
+                        <div class="img">
+                            <img src="./img/img-2.jpg">
+                        </div>
+                        <h2>Cleaning</h2>
+                        <p>Our processing facility has been designed to be able to accommodate a variety of needs. Whether you are looking to clean organic seed, upgrade your organic grain or separate organic products that were intercropped, we would be happy to talk with you further about what we can do. </p>
+                    </div>
+                </div>
+                <div class="box reveal">
+                    <div class="transition">
+                        <div class="img">
+                            <img src="./img/img-3.jpg">
+                        </div>
+                        <h2>Mini Bulk Bagging</h2>
+                        <p>We are able to package your clean grain into food-grade mini bulk bags for transport.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sort section" id="sort">
+        <div class="container">
+            <div class="top reveal">
+                <h1>We are expanding!</h1>
+                <p>We are currently undergoing an expansion that focuses on the addition of a Buhler Colour Sorter. The colour sorter is cutting edge technology that will allow us to sort by shape, size, colour and texture. The addition of a sorter will allow us to expand on the services we already provide. The sorter cleans with great precision, resulting in a very high product purity rating and a low product waste.Our expansion also includes the addition of a bagging line, warehouse storage and a loading dock. This will be great for our customers, both current and new, looking to have their products shipped in dry vans or intermodal containers.</p>
+                <p>Contact us today to learn more!</p>
+            </div>
+            <div class="bottom">
+                <div class="reveal">
+                    <div class="box">
+                        <h3>Dream it</h3>
+                        <p>We have a dream to continue to build on what the previous generation started. To work with agricultural producers and businesses , adding value to their products.</p>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="box">
+                        <h3>Build it</h3>
+                        <p>We have a dream to continue to build on what the previous generation started. To work with agricultural producers and businesses , adding value to their products.</p>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="box">
+                        <h3>Grow it</h1>
+                        <p>We have a dream to continue to build on what the previous generation started. To work with agricultural producers and businesses , adding value to their products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact section" id="contact">
+        <div class="container">
+            <h1>Our<span> Contact us</span></h1>
+            <div class="flex">
+                <div class="left">
+                    <a><i class="fa-solid fa-phone"></i>+1(306)452-8583</a>
+                    <a><i class="fa-solid fa-envelope"></i>customerservice@kbiseedprocessing.ca</a>
+                    <a><i class="fa-solid fa-box"></i>Box 277 Manor SK S0C 1R0</a>
+                    <h3>social networks</h3>
+                    <a><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+                </div>
+                <div class="right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d922.7896689925875!2d-102.00742709577176!3d49.64908597399111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52e0676e08ee6617%3A0x4d6a9d019365b3fd!2sKBI%20Seed%20Processing!5e1!3m2!1sen!2sus!4v1661498528084!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -113,12 +234,72 @@
     </div>
 </body>
 <script>
+    let navbar = document.getElementById('navbar')
+    setInterval(() => {
+        if(window.scrollY >= 250) {
+            navbar.classList.add('nav-none')
+        }
+        else {
+            navbar.classList.remove('nav-none')
+        }
+    })
+
+    let navLink = document.getElementById('nav-links')
+    let openLink = document.getElementById('open-links')
+    let closeLink = document.getElementById('close-links')
+
+    openLink.onclick = () => {
+        navLink.classList.add('active')
+    }
+    closeLink.onclick = () => {
+        navLink.classList.remove('active')
+    }
+
+    let link = document.querySelectorAll('.fullScreen .navbar .container .right .links .link')
+    let sort = document.getElementById('sort')
+    for (let i = 0; i < link.length; i++) {
+        link[i].onclick = () => {
+            link[i].classList.add('link-hover')
+            navLink.classList.remove('active')
+            for (let a = 0; a < link.length; a++) {
+                if (i == a) {
+                    continue;
+                }
+                link[a].classList.remove('link-hover')
+            }
+        }
+        if (link[i]) {
+            
+        }
+    }
+
+    ///////////////////////////////// scroll Link //////////
+    let section = document.querySelectorAll('.section')
+
+    window.onscroll = () => {
+        navLink.classList.remove('active')
+        section.forEach(sec => {
+            let top = window.scrollY
+            let height = sec.offsetHeight // scroll
+            let offset = sec.offsetTop - 150;
+            let id = sec.getAttribute('id')
+
+            if(top >= offset && top < offset + height) {
+                link.forEach(links => {
+                    links.classList.remove('link-hover')
+                    let s = document.querySelector('.fullScreen .navbar .container .right .links .link[href*='+id+']').classList.add('link-hover')
+                })
+            }
+        })
+    }
+
+    
     window.addEventListener('scroll', function reveal() {
         let reveals = document.querySelectorAll('.reveal')
         for(let i = 0; i < reveals.length; i++) {
             let windowHeight = window.innerHeight
             let revealTop = reveals[i].getBoundingClientRect().top
-            let revealPoint = 150;
+            let revealPoint = 50;
             if(revealTop < windowHeight - revealPoint) {
                 reveals[i].classList.add('active')
             }
@@ -143,9 +324,25 @@
         }
     }
 
-        var x = window.matchMedia("(max-width: 1300px)")
-        myFunction(x)
-        x.addListener(myFunction) 
+    var x = window.matchMedia("(max-width: 1300px)")
+    myFunction(x)
+    x.addListener(myFunction) 
+
+    let imgMan = document.getElementById('imgMan')
+    let textMan = document.getElementById('textMan')
+    let bigMan = document.getElementById('bigMan')
+    function imgRespon(y) {
+        if (y.matches) {
+            textMan.appendChild(imgMan)
+        }
+        else {
+            bigMan.appendChild(imgMan)
+        }
+    }
+
+    var y = window.matchMedia("(max-width: 1080px)")
+    imgRespon(y)
+    y.addListener(myFunction) 
     
     ///////////////////////////// open links ////////////////////////////
     let mainAnimate = document.getElementById('main')
@@ -153,18 +350,7 @@
         mainAnimate.classList.add('animate')
         setTimeout(() => {
         }, 5500)
-    }, 5000)
-
-    let navLink = document.getElementById('nav-links')
-    let openLink = document.getElementById('open-links')
-    let closeLink = document.getElementById('close-links')
-
-    openLink.onclick = () => {
-        navLink.classList.add('active')
-    }
-    closeLink.onclick = () => {
-        navLink.classList.remove('active')
-    }
+    }, 10000)
 
 </script>
 </html>
